@@ -9,8 +9,6 @@ This project allows you to get a taste of Java. Practice working with classes, c
 Result: https://imgur.com/DhUTeR0
 
 # Work on project. Stage 1/6: Hello, coffee!
-
-Description
 Let's start with a program that makes you a coffee – virtual coffee, of course. But in this project, you will implement functionality that simulates a real coffee machine. It can run out of milk, it can run out of coffee beans, it can make different varieties of coffee, and it can take the money for making a coffee.
 
 The first version of the program just makes you a coffee. It prints to the standard output what it is doing as it makes a coffee.
@@ -30,8 +28,6 @@ Pouring some milk into the cup
 Coffee is ready!
 
 # What you'll do in this stage 2/6: Machines have needs
-
-Description
 Now let's consider a case where you need a lot of coffee. Maybe, for example, you’re hosting a party with a lot of guests. The program should calculate how much water, coffee, and milk are necessary to make the specified amount of coffee. One cup of coffee made on this coffee machine contains 200 ml of water, 50 ml of milk, and 15 g of coffee beans.
 
 The user should input the amount of coffee he needs, in cups, for all the guests.
@@ -64,8 +60,6 @@ For 125 cups of coffee you will need:
 1875 g of coffee beans
 
 # Work on project. Stage 3/6: Enough coffee for everyone
-
-Description
 A real coffee machine never has an infinite supply of water, milk, or coffee beans. And if you input a really big number, it’s almost certain that a real coffee machine wouldn't have the supplies needed to make all that coffee.
 
 In this stage, you need to improve the previous program. Now you need to input amounts of water, milk, and coffee beans that your coffee machine has at the moment.
@@ -154,8 +148,6 @@ Write how many cups of coffee you will need:
 Yes, I can make that amount of coffee (and even 1 more than that)
 
 # What you'll do in this stage 4/6: Action!
-
-Description
 Let's simulate an actual coffee machine. It has a limited supply of water, milk, coffee beans, and disposable cups. Also, it counts how much money it gets for selling coffee. The coffee machine has several options: first, it needs to be able to sell coffee. It can make different varieties of coffee: espresso, latte, and cappuccino. Of course, each variety requires a different amount of supplies, except that all of them requires only one disposable cup. Second, the coffee machine should be able to get replenished by a special worker. Third, another special worker should be able to take money from the coffee machine.
 
 Write the program that can do one of these actions at a time. It reads one line from standard input, which can be "buy", "fill", "take". If you want to buy some coffee, input "buy". If you are a special worker and you think that it is time to fill out all the supplies for the coffee machine, input "fill". If you are another special worker and it is time to take the money from the coffee machine, input "take".
